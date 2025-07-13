@@ -13,13 +13,13 @@ services:
   db:
     image: postgres:14
     environment:
-      POSTGRES_DB: telegram_db
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: yourpassword
+      POSTGRES_DB: kiam
+      POSTGRES_USER: nebiyuessayas01
+      POSTGRES_PASSWORD: "********"
     ports:
       - "5432:5432"
     volumes:
-      - postgres_data:/var/lib/postgresql/data
+      - pg_data:/var/lib/postgresql/data
 
 volumes:
-  postgres_data:
+  pg_data:

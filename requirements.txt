@@ -4,3 +4,6 @@ pandas
 requests
 tqdm
 psycopg2-binary
+dbt-postgres
+dbt-core 
+dbt-postgres

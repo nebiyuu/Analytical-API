@@ -1,0 +1,109 @@
+[0m20:40:50.540438 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbeeecbf620>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbeedb23d90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbeedb239d0>]}
+
+
+============================== 20:40:50.545936 | 6ceba048-ed69-4e92-bed9-0ed532e0f45b ==============================
+[0m20:40:50.545936 [info ] [MainThread]: Running with dbt=1.10.4
+[0m20:40:50.546804 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/sasa/.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'invocation_command': 'dbt init my_project', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m20:40:50.582826 [info ] [MainThread]: Creating dbt configuration folder at /home/sasa/.dbt
+[0m20:40:50.587532 [debug] [MainThread]: Starter project path: /home/sasa/Documents/code/KIAM/week7/venv/lib64/python3.13/site-packages/dbt/include/starter_project
+[0m20:40:50.591275 [info ] [MainThread]: 
+Your new dbt project "my_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m20:40:50.591893 [info ] [MainThread]: Setting up your profile.
+[0m20:42:05.126147 [info ] [MainThread]: Profile my_project written to /home/sasa/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m20:42:05.134440 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 74.66093, "process_in_blocks": "39648", "process_kernel_time": 0.172766, "process_mem_max_rss": "104084", "process_out_blocks": "272", "process_user_time": 1.464637}
+[0m20:42:05.135077 [debug] [MainThread]: Command `dbt init` succeeded at 20:42:05.134913 after 74.66 seconds
+[0m20:42:05.135525 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbeed765cd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbeee077d10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbeed760380>]}
+[0m20:42:05.135975 [debug] [MainThread]: Flushing usage events
+[0m20:42:18.282871 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:18:13.111513 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe6af3db620>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe6ae057d90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe6ae0579d0>]}
+
+
+============================== 21:18:13.115145 | 53bf359e-aa16-4402-9c01-6d8586110440 ==============================
+[0m21:18:13.115145 [info ] [MainThread]: Running with dbt=1.10.4
+[0m21:18:13.115944 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'profiles_dir': '/home/sasa/.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt init my_project', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m21:18:13.141864 [debug] [MainThread]: Starter project path: /home/sasa/Documents/code/KIAM/week7/venv/lib64/python3.13/site-packages/dbt/include/starter_project
+[0m21:18:13.146213 [info ] [MainThread]: 
+Your new dbt project "my_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m21:18:13.147067 [info ] [MainThread]: Setting up your profile.
+[0m21:19:09.892123 [info ] [MainThread]: Profile my_project written to /home/sasa/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m21:19:09.900763 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 56.83757, "process_in_blocks": "28872", "process_kernel_time": 0.144334, "process_mem_max_rss": "104256", "process_out_blocks": "288", "process_user_time": 1.317243}
+[0m21:19:09.901974 [debug] [MainThread]: Command `dbt init` succeeded at 21:19:09.901637 after 56.84 seconds
+[0m21:19:09.902716 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe6adfa5cd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe6ae79fd10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe6adfa0380>]}
+[0m21:19:09.903272 [debug] [MainThread]: Flushing usage events
+[0m21:19:11.718474 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:32:10.397102 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7facd3ec7620>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7facd2b4bd90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7facd2b4b9d0>]}
+
+
+============================== 21:32:10.401777 | 66e930f6-0224-4ce8-a940-b85db350fb15 ==============================
+[0m21:32:10.401777 [info ] [MainThread]: Running with dbt=1.10.4
+[0m21:32:10.402638 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/sasa/.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt test', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m21:32:10.403200 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /home/sasa/Documents/code/KIAM/week7/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m21:32:10.404603 [debug] [MainThread]: Resource report: {"command_name": "test", "command_success": false, "command_wall_clock_time": 0.06510566, "process_in_blocks": "35768", "process_kernel_time": 0.140198, "process_mem_max_rss": "99852", "process_out_blocks": "8", "process_user_time": 1.245705}
+[0m21:32:10.405097 [debug] [MainThread]: Command `dbt test` failed at 21:32:10.404991 after 0.07 seconds
+[0m21:32:10.405633 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7facd2b463f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7facd2e17890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7facd2c4caf0>]}
+[0m21:32:10.406076 [debug] [MainThread]: Flushing usage events
+[0m21:32:20.016702 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:32:25.422541 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb5769ef620>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb57565fd90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb57565f9d0>]}
+
+
+============================== 21:32:25.425771 | 68e02d90-616d-45ed-b82c-e0606d1f6646 ==============================
+[0m21:32:25.425771 [info ] [MainThread]: Running with dbt=1.10.4
+[0m21:32:25.426733 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': '/home/sasa/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt docs generate', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True'}
+[0m21:32:25.427258 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /home/sasa/Documents/code/KIAM/week7/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m21:32:25.428596 [debug] [MainThread]: Resource report: {"command_name": "generate", "command_success": false, "command_wall_clock_time": 0.06927634, "process_in_blocks": "0", "process_kernel_time": 0.128013, "process_mem_max_rss": "100400", "process_out_blocks": "0", "process_user_time": 1.571125}
+[0m21:32:25.429115 [debug] [MainThread]: Command `dbt docs generate` failed at 21:32:25.429009 after 0.07 seconds
+[0m21:32:25.429656 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb57565a520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb57572f890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb575760af0>]}
+[0m21:32:25.430077 [debug] [MainThread]: Flushing usage events
+[0m21:32:29.429299 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:49:39.273750 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcba6edb4d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcba5b4bd90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcba5b4b9d0>]}
+
+
+============================== 21:49:39.279031 | 3a235bc4-864e-4637-8e48-fea514907ed4 ==============================
+[0m21:49:39.279031 [info ] [MainThread]: Running with dbt=1.10.4
+[0m21:49:39.279990 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/sasa/.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt docs generate', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True'}
+[0m21:49:39.280691 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /home/sasa/Documents/code/KIAM/week7/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m21:49:39.282047 [debug] [MainThread]: Resource report: {"command_name": "generate", "command_success": false, "command_wall_clock_time": 0.080074824, "process_in_blocks": "59536", "process_kernel_time": 0.223811, "process_mem_max_rss": "99916", "process_out_blocks": "16", "process_user_time": 1.68584}
+[0m21:49:39.282731 [debug] [MainThread]: Command `dbt docs generate` failed at 21:49:39.282596 after 0.08 seconds
+[0m21:49:39.283224 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcba5b46520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcba5e17890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcba5c4caf0>]}
+[0m21:49:39.283768 [debug] [MainThread]: Flushing usage events
+[0m21:49:43.993458 [debug] [MainThread]: An error was encountered while trying to flush usage events
