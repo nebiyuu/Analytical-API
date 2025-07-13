@@ -99,9 +99,32 @@ Jupyter notebooks for data exploration are in the `notebook/` directory. Example
 Logs are written to the `logs/` directory. Logging is configured in `src/utils/logger.py`.
 
 ## Requirements
+
 - Python 3.10+
 - PostgreSQL
 - dbt-core, dbt-postgres
 - Telethon, pandas, psycopg2-binary, etc. (see `requirements.txt`)
+
+## dbt Project and Transformation Code
+
+This repository **does** include a dbt project and related transformation code:
+
+- The dbt project is located in the `my_project/` directory. It contains:
+  - `dbt_project.yml` (project config)
+  - `models/` (all transformation SQL files)
+  - `analyses/`, `macros/`, `seeds/`, `snapshots/`, `tests/` (dbt standard structure)
+
+- **Staging Models:**
+  - Example: `models/staging/stg_telegram_messages.sql` — cleans and standardizes raw Telegram message data.
+
+- **Data Marts:**
+  - Example: `models/data_mart/fct_messages.sql` — fact table for messages.
+  - Example: `models/data_mart/dim_channels.sql` — channel dimension.
+  - Example: `models/data_mart/dim_dates.sql` — date dimension.
+
+- **Custom Data Integrity Tests:**
+  - Example: `tests/no_future_messages.sql` — ensures no messages are dated in the future.
+
+All transformation code and tests are available in the repository. Please see the `models/` and `tests/` directories for details and review the SQL files for implementation.
 
 
