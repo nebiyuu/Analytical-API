@@ -1,0 +1,22 @@
+name: 'analytical_api'  # lowercase and underscores only
+version: '1.0.0'
+
+profile: 'analytical_api'
+
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+models:
+  analytical_api:
+    staging:
+      +materialized: view
+    marts:
+      +materialized: table
